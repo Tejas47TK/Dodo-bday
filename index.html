@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy Birthday Vaishnavi ✨</title>
+  <meta name="theme-color" content="#0b0b10" />
+  <meta name="description" content="A lovely birthday wish for Vaishnavi." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <canvas id="stars"></canvas>
+
+  <main class="wrap">
+    <header class="top">
+      <div class="pill">✨ A little birthday page ✨</div>
+      <h1 class="title">Happy Birthday<br><span class="name">Vaishnavi</span> 🎂</h1>
+      <p class="subtitle">
+        May your day feel like soft music, warm sunlight, and the kind of happiness that stays.
+      </p>
+    </header>
+
+    <section class="card" aria-label="birthday message">
+      <div class="card-inner">
+        <h2 class="h2">To the sweetest soul 💛</h2>
+
+        <p class="msg">
+          Today is your day — and honestly, it deserves a little extra sparkle.
+          You have this rare magic: you make everything feel lighter, calmer, and better.
+        </p>
+
+        <p class="msg">
+          I hope this year brings you
+          <span class="accent">peace</span>,
+          <span class="accent">growth</span>,
+          <span class="accent">love</span>,
+          and the kind of wins that make you proud of yourself.
+        </p>
+
+        <p class="msg">
+          Keep smiling the way you do — it’s genuinely one of the prettiest things.
+          And whenever life gets loud, I hope you always remember:
+          <span class="quote">you’re loved more than you know.</span>
+        </p>
+
+        <div class="sign">
+          <div class="line"></div>
+          <div class="sig">Tum ho toh — Saiyaara ✨</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="actions" aria-label="actions">
+      <button id="sparkleBtn" class="btn primary" type="button">Make it sparkle ✨</button>
+      <button id="wishBtn" class="btn" type="button">Open a wish 💌</button>
+    </section>
+
+    <footer class="footer">
+      <div class="mini">Made with love • Tap anywhere for a gentle glow</div>
+    </footer>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-label="Birthday wish">
+      <button id="closeModal" class="x" aria-label="Close">✕</button>
+      <div class="modal-content">
+        <div class="modal-title">A wish for you ✨</div>
+        <div class="modal-text" id="wishText"></div>
+        <button id="nextWish" class="btn primary" type="button">Another wish</button>
+      </div>
+    </div>
+  </div>
+<div class="tag" aria-hidden="true">#dodo</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
